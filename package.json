@@ -2,12 +2,12 @@
   "name": "Gapur.github.io",
   "version": "0.1.0",
   "author": {
-    "name": "",
-    "email": "",
-    "url": "https://Gapur.github.io"
+    "name": "Gagskaya",
+    "email": "alisxan006@mail.ru",
+    "url": "https://gagskaya.github.io"
   },
   "license": "MIT",
-  "homepage": "https://Gapur.github.io/",
+  "homepage": "https://gagskaya.github.io/portfolio-react/",
   "private": true,
   "dependencies": {
     "node-sass": "^4.14.1",
