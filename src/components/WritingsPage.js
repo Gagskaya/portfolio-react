@@ -38,18 +38,10 @@ const WritingsPage = (props) => {
           duration={500}
           delay={800}
         >
-          <p className="page-tag">Writings</p>
+          <p className="page-tag">Записи</p>
         </Anime>
         <CustomScroll heightRelativeToParent="calc(100% - 20px)">
-          <div className="page-content">
-            {/* <h1>I love to write about my experiences!</h1>
-              <p className="page-intro">One of the reasons behind loving the development community so much is peoples mindset for giving away valuable resources and insights for free. I've read and benefitted from countless numbers of articles online. Writing articles about technology and experience is my way of giving back to the community. As a bonus, it's also a great way to solidifying my own learning. 
-                <br/>
-              Below are some of the articles I've written recently.</p>
-              <div className="article-list">
-                <ArticleList articleList={writingsData}/>
-              </div> */}
-          </div>
+          <div className="page-content"></div>
         </CustomScroll>
       </div>
     </Anime>

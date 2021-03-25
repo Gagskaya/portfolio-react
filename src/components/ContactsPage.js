@@ -29,7 +29,7 @@ const ContactsPage = (props) => {
           duration={500}
           delay={800}
         >
-          <p className="page-tag">Contacts</p>
+          <p className="page-tag">Контакты</p>
         </Anime>
         <div className="page-content">
           <h1>Связаться со мной</h1>
