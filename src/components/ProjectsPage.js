@@ -17,15 +17,23 @@ const ProjectsList = (props) => {
         <p>{project.heading}</p>
       </div>
       <div className="thumb">
-        {/* <img src={project.thumb} alt="Project Preview" /> */}
-        <img src={todo} alt="" />
+        <img src={project.thumb} alt="Project Preview" />
+        {/* <img src={todo} alt="" /> */}
       </div>
       <div className="project-links">
+        {project.links.live && (
+          <a className="link" target="_blank" href={project.links.live}>
+            Live demo
+          </a>
+        )}
         {project.links.repo && (
           <a className="link" target="_blank" href={project.links.repo}>
             Code on GitHub
           </a>
         )}
+      </div>
+      <div className="project-details">
+        <p> Использованные скиллы : {project.details}</p>
       </div>
     </div>
   ));
@@ -48,21 +56,19 @@ const ProjectsPage = (props) => {
           duration={500}
           delay={800}
         >
-          <p className="page-tag">Projects</p>
+          <p className="page-tag">Проекты</p>
         </Anime>
         <CustomScroll heightRelativeToParent="calc(100% - 20px)">
           <div className="page-content">
             <h1>
               Мои работы <GlassEmoji />
             </h1>
-            {/* <p className="page-intro">
-              I like to try out new tools and technologies to create apps/sites
-              that somehow make my/someone else's life easier. Below are some of
-              the projects that I loved working on. Also, I'm extremely grateful
-              to the entire Open Source community for all the amazing stuff that
-              it provides us and makes it possible for everyone to create
-              amazing things. I love contributing to Open Source whenever I can.
-            </p> */}
+            <p className="page-intro">
+              Мне очень нравиться использовать новые инструменты и технологии
+              для создания инструментов/сайтов которые облегчают чью-то жизнь.
+              Ниже приведены некоторые из моих проектов, над которыми мне было
+              очень интересно работать
+            </p>
             <div className="projects-container">
               <ProjectsList projects={projectsData} />
             </div>
