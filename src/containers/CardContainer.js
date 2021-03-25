@@ -38,6 +38,12 @@ class CardContainer extends Component {
           MouseLeave={this.mouseLeave}
           scaleArr={scaleArr}
         />
+        <WritingsCard
+          onClick={clickHandler}
+          MouseEnter={this.mouseEnter}
+          MouseLeave={this.mouseLeave}
+          scaleArr={scaleArr}
+        />
         <ContactsCard
           onClick={clickHandler}
           MouseEnter={this.mouseEnter}
