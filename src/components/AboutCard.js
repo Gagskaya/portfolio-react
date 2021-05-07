@@ -17,8 +17,8 @@ function AboutCard(props) {
         onMouseEnter={props.MouseEnter("about")}
         onMouseLeave={props.MouseLeave("about")}
       >
-        <h2>Илисхан</h2>
-        <p>Front-end разработчик.</p>
+        <h2>Iliskhan</h2>
+        <p>Front-end developer.</p>
       </div>
     </Anime>
   );

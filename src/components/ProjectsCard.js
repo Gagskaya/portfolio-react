@@ -17,8 +17,8 @@ function ProjectCard(props) {
         onMouseEnter={props.MouseEnter("projects")}
         onMouseLeave={props.MouseLeave("projects")}
       >
-        <h2>Работа и проекты</h2>
-        <p>Взгляните на некоторые из моих работ</p>
+        <h2>My projects</h2>
+        <p>Take a look at some of my projects</p>
       </div>
     </Anime>
   );

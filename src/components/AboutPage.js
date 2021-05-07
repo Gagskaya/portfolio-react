@@ -22,17 +22,17 @@ const AboutPage = (props) => {
           duration={500}
           delay={800}
         >
-          <p className="page-tag">Обо мне</p>
+          <p className="page-tag">About me</p>
         </Anime>
         <CustomScroll heightRelativeToParent="calc(100% - 20px)">
           <div className="page-content">
             <p>
-              Привет! <span className="hand-wave">👋</span>
+              Hello! <span className="hand-wave">👋</span>
             </p>
-            <h1>Меня зовут Илисхан Алдаганов.</h1>
-            <p>Мне 22 года и я frontend-разработчик.</p>
+            <h1>My name is Iliskhan Aldaganov</h1>
+            <p>I am 22 years old and i am a frontend developer</p>
             <div className="skills">
-              <h3>Скилы</h3>
+              <h3>Skills</h3>
               <ul>
                 <li>
                   <strong>JavaScript</strong>
@@ -69,12 +69,12 @@ const AboutPage = (props) => {
                 <li>Jira/Trello</li>
               </ul>
               <p>
-                Находясь в отрасли, которая развивается и меняется с огромной
-                скоростью, не имеет значения, с какими
-                фреймворками/инструментами я знаком, потому что они могут
-                устареть в течение нескольких месяцев. Главное, насколько быстро
-                я могу учиться и чувствовать себя комфортно с новыми
-                технологиями, а я считаю, что я быстро учусь.
+                Being in an industry that is evolving and changing at a
+                tremendous rate, it doesn't matter which frameworks / tools I am
+                familiar with, because they can be out of date within a few
+                months. The main thing is how quickly I can learn and feel
+                comfortable with new technologies, and I believe that I am a
+                fast learner.
               </p>
             </div>
           </div>

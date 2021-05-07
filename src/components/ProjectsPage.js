@@ -33,7 +33,7 @@ const ProjectsList = (props) => {
         )}
       </div>
       <div className="project-details">
-        <p> Использованные скиллы : {project.details}</p>
+        <p> Used skills : {project.details}</p>
       </div>
     </div>
   ));
@@ -56,18 +56,18 @@ const ProjectsPage = (props) => {
           duration={500}
           delay={800}
         >
-          <p className="page-tag">Проекты</p>
+          <p className="page-tag">Projects</p>
         </Anime>
         <CustomScroll heightRelativeToParent="calc(100% - 20px)">
           <div className="page-content">
             <h1>
-              Мои работы <GlassEmoji />
+              My projects
+              <GlassEmoji />
             </h1>
             <p className="page-intro">
-              Мне очень нравится использовать новые инструменты и технологии для
-              создания инструментов/сайтов которые облегчают чью-то жизнь. Ниже
-              приведены некоторые из моих проектов, над которыми мне было очень
-              интересно работать
+              I really enjoy using new tools and technologies to create tools /
+              sites that make someone's life easier. Below are some of my
+              projects on which I was very interesting to work
             </p>
             <div className="projects-container">
               <ProjectsList projects={projectsData} />

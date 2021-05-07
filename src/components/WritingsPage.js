@@ -38,7 +38,7 @@ const WritingsPage = (props) => {
           duration={500}
           delay={800}
         >
-          <p className="page-tag">Записи</p>
+          <p className="page-tag">Notes</p>
         </Anime>
         <CustomScroll heightRelativeToParent="calc(100% - 20px)">
           <div className="page-content"></div>

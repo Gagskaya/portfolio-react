@@ -29,10 +29,10 @@ const ContactsPage = (props) => {
           duration={500}
           delay={800}
         >
-          <p className="page-tag">Контакты</p>
+          <p className="page-tag">Contacs</p>
         </Anime>
         <div className="page-content">
-          <h1>Связаться со мной</h1>
+          <h1>Get in touch</h1>
           <div className="link-list">
             <p>
               Email :{" "}
