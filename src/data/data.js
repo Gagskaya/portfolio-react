@@ -1,5 +1,36 @@
 export const projectsData = [
   {
+    name: "React SPA",
+    heading: "Messanger on React",
+    thumb:
+      "https://res.cloudinary.com/dze4unf4c/image/upload/v1616617675/messanger_dr3po2.png",
+    links: {
+      repo: "https://github.com/Gagskaya/messanger",
+    },
+    details: "React,TS,Redux/Redux-thunk,Material-UI,SCSS,Axios",
+  },
+  {
+    name: "React SPA",
+    heading: "SPA on React/Redux",
+    thumb:
+      "https://res.cloudinary.com/dze4unf4c/image/upload/v1616608518/flights_oopbrg.png",
+    links: {
+      repo: "https://github.com/Gagskaya/fligths",
+      live: "https://gagskaya.github.io/fligths/",
+    },
+    details: "React, Axios, SCSS",
+  },
+  {
+    name: "React SPA",
+    heading: "Todo-list on React",
+    thumb:
+      "https://res.cloudinary.com/dze4unf4c/image/upload/v1616608429/todo_e5slyq.png",
+    links: {
+      repo: "https://github.com/Gagskaya/todo",
+    },
+    details: "React, Axios, SCSS",
+  },
+  {
     name: "Multi-page site",
     heading: "Responsive multi-page site",
     thumb:
@@ -42,36 +73,5 @@ export const projectsData = [
       live: "https://gagskaya.github.io/hospital",
     },
     details: "HTML/CSS/SCSS",
-  },
-  {
-    name: "React SPA",
-    heading: "Messanger on React",
-    thumb:
-      "https://res.cloudinary.com/dze4unf4c/image/upload/v1616617675/messanger_dr3po2.png",
-    links: {
-      repo: "https://github.com/Gagskaya/messanger",
-    },
-    details: "React,TS,Redux/Redux-thunk,Material-UI,SCSS,Axios",
-  },
-  {
-    name: "React SPA",
-    heading: "SPA on React/Redux",
-    thumb:
-      "https://res.cloudinary.com/dze4unf4c/image/upload/v1616608518/flights_oopbrg.png",
-    links: {
-      repo: "https://github.com/Gagskaya/fligths",
-      live: "https://gagskaya.github.io/fligths/",
-    },
-    details: "React, Axios, SCSS",
-  },
-  {
-    name: "React SPA",
-    heading: "Todo-list on React",
-    thumb:
-      "https://res.cloudinary.com/dze4unf4c/image/upload/v1616608429/todo_e5slyq.png",
-    links: {
-      repo: "https://github.com/Gagskaya/todo",
-    },
-    details: "React, Axios, SCSS",
   },
 ];
