@@ -30,7 +30,7 @@ const AboutPage = (props) => {
               Hello! <span className="hand-wave">👋</span>
             </p>
             <h1>My name is Iliskhan Aldaganov</h1>
-            <p>I am 22 years old and i am a frontend developer</p>
+            <p>I am 24 years old and i am a frontend developer</p>
             <div className="skills">
               <h3>Skills</h3>
               <ul>
@@ -47,6 +47,24 @@ const AboutPage = (props) => {
                   <strong>Redux</strong>
                 </li>
                 <li>
+                  <strong>Vue</strong>
+                </li>
+                <li>
+                  <strong>Vuex</strong>
+                </li>
+                <li>
+                  <strong>React Native</strong>
+                </li>
+                <li>
+                  <strong>Node.js</strong>
+                </li>
+                <li>
+                  <strong>MySql</strong>
+                </li>
+                <li>
+                  <strong>GraphQL</strong>
+                </li>
+                <li>
                   <strong>HTML</strong>
                 </li>
                 <li>
@@ -60,7 +78,7 @@ const AboutPage = (props) => {
                     Bootstrap 3/4,Material-Ui,Ant Design,React Semantic-Ui
                   </strong>
                 </li>
-                <li>Worpress</li>
+                <li>Wordpress</li>
                 <li>Photoshop/Figma/Avocode/Illustrator</li>
                 <li>Gulp/Webpack</li>
                 <li>BEM</li>
@@ -68,14 +86,6 @@ const AboutPage = (props) => {
                 <li>Git/GitHub/Bitbucket/Gitlab</li>
                 <li>Jira/Trello</li>
               </ul>
-              <p>
-                Being in an industry that is evolving and changing at a
-                tremendous rate, it doesn't matter which frameworks / tools I am
-                familiar with, because they can be out of date within a few
-                months. The main thing is how quickly I can learn and feel
-                comfortable with new technologies, and I believe that I am a
-                fast learner.
-              </p>
             </div>
           </div>
         </CustomScroll>

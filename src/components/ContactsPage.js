@@ -40,7 +40,7 @@ const ContactsPage = (props) => {
                 alisxan006@mail.ru
               </a>
             </p>
-            <p>Telegram : t.me/gagskaya</p>
+            <p>Telegram : t.me/crucial1337</p>
             <p>
               Phone :{" "}
               <a style={{ color: "#fff" }} href="tel:89888085272">

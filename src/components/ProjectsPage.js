@@ -3,9 +3,7 @@ import Anime from "react-anime";
 import CustomScroll from "react-custom-scroll";
 import BackToHomeBtn from "./BackToHomeBtn";
 import GlassEmoji from "../assets/GlassEmoji";
-import { BtnIcon } from "./BackToHomeBtn";
 import { projectsData } from "../data/data";
-import todo from "../assets/img/todo.png";
 import "../styles/ProjectsPage.css";
 import "../styles/customScroll.css";
 
@@ -62,13 +60,7 @@ const ProjectsPage = (props) => {
           <div className="page-content">
             <h1>
               My projects
-              <GlassEmoji />
             </h1>
-            <p className="page-intro">
-              I really enjoy using new tools and technologies to create tools /
-              sites that make someone's life easier. Below are some of my
-              projects on which I was very interesting to work
-            </p>
             <div className="projects-container">
               <ProjectsList projects={projectsData} />
             </div>
